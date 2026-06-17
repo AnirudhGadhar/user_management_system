@@ -125,35 +125,27 @@ One of the main challenges encountered during development was resolving **500 In
 
 The problem was resolved by correcting the request data structure and ensuring that backend methods properly processed incoming requests. This debugging experience improved my understanding of frontend-backend communication and helped enhance the reliability and stability of the application.
 
----
-
 ## Application Screenshots
 
-### Signup Page
 
-![Signup Page](screenshots/signup.png)
+### Signup Page
+![Signup Page](screenshots/signup.jpeg)
 
 ### Login Page
-
-![Login Page](screenshots/login.png)
+![Login Page](screenshots/login.jpeg)
 
 ### Update Profile Page
-
-![Update Profile](screenshots/update.png)
+![Update Profile](screenshots/update.jpeg)
 
 ### All Users Page
-
-![All Users](screenshots/allusers.png)
-
-### User Management System Home Page
-
-![User Management System](screenshots/usermanagement.png)
+![All Users](screenshots/allusers.jpeg)
 
 ### MongoDB Atlas Database
+![Database](screenshots/db.jpeg)
 
-![Database](screenshots/db.png)
+### User Management System Home Page
+![User Management System](screenshots/usermanagement.jpeg)
 
----
 
 ## Project Structure
 

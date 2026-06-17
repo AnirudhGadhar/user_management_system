@@ -1,40 +1,67 @@
 # =========================
+
 # IntelliJ IDEA
+
 # =========================
+
 .idea/
 *.iml
 out/
 
 # =========================
+
 # VS Code
+
 # =========================
+
 .vscode/
 
 # =========================
+
 # OS Files
+
 # =========================
+
 .DS_Store
 Thumbs.db
 
 # =========================
+
 # Backend (Spring Boot / Maven)
+
 # =========================
+
 backend/target/
 target/
 
-# Logs
+# Maven Logs
+
 *.log
 
 # Java
+
 *.class
 
+# =========================
+
 # Environment Variables
+
+# =========================
+
 .env
 *.env
 
+# Spring Boot Secrets
+
+backend/src/main/resources/application-secret.properties
+backend/src/main/resources/application-local.properties
+
 # =========================
+
 # Frontend (React / Vite)
+
 # =========================
+
 frontend/node_modules/
 frontend/dist/
 frontend/dist-ssr/
@@ -45,15 +72,42 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Frontend Environment Files
+
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
 # =========================
+
 # Temporary Files
+
 # =========================
+
 *.swp
 *.swo
 *.tmp
 *.bak
 
 # =========================
+
 # Coverage Reports
+
 # =========================
+
 coverage/
+
+# =========================
+
+# Security Files
+
+# =========================
+
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# =========================
