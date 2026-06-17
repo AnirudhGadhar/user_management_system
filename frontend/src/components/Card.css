@@ -1,0 +1,35 @@
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.card-title {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-content {
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    .card-content {
+        padding: 20px;
+    }
+
+    .card-title {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
