@@ -35,7 +35,7 @@ cd backend
 mvn spring-boot:run
 ```
 
-The backend will start on:
+Backend URL:
 
 ```text
 http://localhost:8089
@@ -55,13 +55,13 @@ cd frontend
 npm install
 ```
 
-3. Start the frontend application.
+3. Run the application.
 
 ```bash
 npm run dev
 ```
 
-The frontend will start on:
+Frontend URL:
 
 ```text
 http://localhost:5173
@@ -96,8 +96,8 @@ http://localhost:5173
 
 ### IDE
 
-* IntelliJ IDEA (Backend)
-* VS Code / IntelliJ IDEA (Frontend)
+* IntelliJ IDEA
+* VS Code
 
 ---
 
@@ -127,10 +127,46 @@ The problem was resolved by correcting the request data structure and ensuring t
 
 ---
 
+## Application Screenshots
+
+### Signup Page
+
+![Signup Page](screenshots/signup.png)
+
+### Login Page
+
+![Login Page](screenshots/login.png)
+
+### Update Profile Page
+
+![Update Profile](screenshots/update.png)
+
+### All Users Page
+
+![All Users](screenshots/allusers.png)
+
+### User Management System Home Page
+
+![User Management System](screenshots/usermanagement.png)
+
+### MongoDB Atlas Database
+
+![Database](screenshots/db.png)
+
+---
+
 ## Project Structure
 
 ```text
 user-management-system/
+│
+├── screenshots/
+│   ├── usermanagement.png
+│   ├── signup.png
+│   ├── login.png
+│   ├── update.png
+│   ├── allusers.png
+│   └── db.png
 │
 ├── backend/
 │   ├── src/
